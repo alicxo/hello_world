@@ -10,5 +10,5 @@ This is a hello_world repository
 *fix_b*
 
 
-faeture_c
+feature_c
 
