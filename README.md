@@ -8,3 +8,7 @@ This is a hello_world repository
 
 `this is feature_a`
 *fix_b*
+
+
+faeture_c
+
