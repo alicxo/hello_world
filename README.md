@@ -7,3 +7,4 @@ This is a hello_world repository
 **I am bold**
 
 `this is feature_a`
+*fix_b*
