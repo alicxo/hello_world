@@ -1,6 +1,10 @@
 language: cpp
 compiler:
   - g++
+before_install:
+  - pip3 install --user cpp-coveralls
 script:
   - make
+after_success:
+  - coveralls --root .
 
