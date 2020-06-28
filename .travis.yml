@@ -6,5 +6,5 @@ before_install:
 script:
   - make
 after_success:
-  - coveralls --root .
+  - coveralls --gcov-options '\-lp'
 
