@@ -32,5 +32,3 @@
 *.app
 
 # Other
-build
-cmake-build-debug

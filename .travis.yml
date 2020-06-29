@@ -3,6 +3,8 @@ compiler:
   - g++
 before_install:
   - pip install --user cpp-coveralls
+  - sudo apt update
+  - sudo apt install libgtest-dev
 script:
   - mkdir build && cd build && cmake .. && make && ./demo_unittest
 after_success:
