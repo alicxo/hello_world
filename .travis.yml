@@ -1,4 +1,6 @@
 language: cpp
+dist: xenial
+sudo: required
 compiler:
   - g++
 before_install:
