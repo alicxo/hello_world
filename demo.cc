@@ -1,12 +1,9 @@
 #include<iostream>
-
-void f() {
-  std::cout << "I am f" << std::endl;
-}
+#include "person.h"
 
 int main(int argc, char **argv) {
-  f();
-  std::cout << "hello_world" << std::endl;
+  Person person;
+  person.Sing();
   std::cout << "end" << std::endl;
   return 0;
 }
